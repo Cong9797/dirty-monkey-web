@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true
-  },
-  output: 'standalone'
+  // app router 在 Next 15 中已默认启用，不再需要 experimental.appDir
+  output: 'standalone',
 };
 
 export default nextConfig;

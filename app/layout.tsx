@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Artist Portfolio",
+  title: "Dirty Monkey",
   description: "Portfolio site for an artist.",
 };
 
